@@ -1,4 +1,4 @@
-#<ver4 → ver5 변경점>
+# <ver4 → ver5 변경점>
 - 우측상단 추가메뉴에서 login(connect Server & input_ID&PASSWD)
 - fragment1에서 Server로 sendMessage
 - Mainactivity에 존재하는 ClientThread를 받아서 구현
