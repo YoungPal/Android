@@ -10,12 +10,11 @@
 
     <FrameLayout
         android:id="@+id/frameLayout"
-        android:layout_width="204dp"
+        android:layout_width="0dp"
         android:layout_height="0dp"
         android:background="#F1E36C"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintEnd_toStartOf="@+id/frameLayout2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0">
@@ -112,11 +111,13 @@
                     android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent" />
+
             </LinearLayout>
         </LinearLayout>
     </FrameLayout>
 
     <FrameLayout
+        android:id="@+id/frameLayout2"
         android:layout_width="190dp"
         android:layout_height="0dp"
         android:background="#6CDDD2"
